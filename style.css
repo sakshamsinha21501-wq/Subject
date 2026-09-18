@@ -1,0 +1,130 @@
+*
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2sem;
+    /* background-color: azure; */
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    
+    background-image: url(assest/Copy\ of\ Freshers\ Day\ 2026\ \(1920\ x\ 1080\ px\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+/* .banner::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgb(10, 73, 127);
+} */
+.banner-content {
+    position: relative;
+    color: rgb(10, 73, 127);
+    z-index: 5;
+}
+.banner h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner p {
+    font-size: 20px;
+    color: rgb(74, 74, 74);
+}
+
+.heead{
+    text-align: center;
+}
+header{
+    display: block;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.effect {
+    background-color: rgb(31, 159, 114);
+    box-shadow: 3px;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.65);  
+}
+.semster-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.semster {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.semster h3 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.semster {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.semster:hover{
+    transform:scale(1.05);
+    box-shadow: 0 8px 20px rgb(10, 73, 127);
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 300px );
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgb(10, 73, 127);
+    transition: transfrom 0.3 ease;
+}
+
+
+
+.banner:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgb(255, 0, 0);
+}
+.subjects p {
+    font-size: 20px
+    padding: 10px;
+    margin: 5px;
+    background-color: beige;
+}
